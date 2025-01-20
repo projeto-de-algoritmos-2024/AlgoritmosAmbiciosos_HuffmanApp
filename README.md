@@ -1,7 +1,5 @@
 # Projeto Huffman Encoder
 
-![alt text](image.png)
-
 ## Informações do Aluno
 | Matrícula  | Nome           |
 |------------|----------------|
@@ -85,4 +83,4 @@ Este projeto ilustra de maneira prática como o **Algoritmo de Huffman** é util
 ---
 
 ## Demonstração em Vídeo
-Para mais detalhes, assista à [demonstração em vídeo do projeto]().
+Para mais detalhes, assista à [demonstração em vídeo do projeto](https://youtu.be/Crxt_k_suK8).
