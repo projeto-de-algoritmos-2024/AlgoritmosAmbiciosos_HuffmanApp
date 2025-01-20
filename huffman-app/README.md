@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Projeto Huffman Encoder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![alt text](image.png)
 
-## Available Scripts
+## Informações do Aluno
+| Matrícula  | Nome           |
+|------------|----------------|
+| 170140717 | Eduarda Rodrigues Tavares |
+| 211030747 | Filipe Carvalho da Silva  |
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Sobre o Projeto
+Este projeto implementa o **Algoritmo de Huffman**, que é amplamente utilizado para compressão de dados sem perdas. A aplicação permite visualizar o processo de codificação de um texto em binário usando a Árvore de Huffman, além de exibir os códigos gerados para cada caractere.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Funcionalidades
+- **Cálculo da Frequência de Caracteres**: Analisa o texto de entrada e calcula a frequência de cada caractere.
+- **Construção da Árvore de Huffman**: Constrói a árvore binária com base na frequência dos caracteres.
+- **Geração de Códigos de Huffman**: Cria um mapa de códigos binários para cada caractere.
+- **Codificação do Texto**: Gera a versão codificada do texto original usando os códigos de Huffman.
+- **Visualização da Árvore de Huffman**: Apresenta a árvore gerada de forma hierárquica.
+- **Exibição dos Códigos**: Mostra os códigos binários associados a cada caractere.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Como Executar o Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Pré-requisitos
+Para executar o projeto, você precisa ter instalado:
+- Node.js (versão 14 ou superior)
+- NPM (geralmente incluído com o Node.js)
+- React (a biblioteca é instalada automaticamente com o projeto)
 
-### `npm run build`
+### Passo a Passo para Execução
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clonar o Repositório:
+   - Com o terminal aberto, clone o repositório do projeto com o comando:
+      ```bash
+      git clone https://github.com/projeto-de-algoritmos-2024/Huffman-Encoder.git
+      ```
+   - Navegue até a pasta do projeto com:
+      ```bash
+      cd Huffman-Encoder
+      ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Instalar Dependências:
+   - No diretório do projeto, execute o comando para instalar as dependências:
+      ```bash
+      npm install
+      ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Iniciar o Projeto:
+   - No diretório do projeto, execute o comando para iniciar o servidor de desenvolvimento:
+      ```bash
+      npm start
+      ```
+   - O projeto será iniciado em `http://localhost:3000`.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Como Usar a Aplicação
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Inserir Texto**:
+   - No campo de entrada, digite o texto que deseja codificar.
+   - Clique no botão **"Criptografar"** para iniciar o processo.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Verificar Resultado**:
+   - O texto codificado será exibido na tela.
+   - A árvore de Huffman gerada será exibida de forma hierárquica.
+   - Uma lista com os códigos de Huffman para cada caractere será apresentada.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Inserir Novo Texto**:
+   - Para testar outro texto, basta inserir o novo texto no campo e clicar em **"Criptografar"** novamente.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Tecnologias Utilizadas
+- **React**: para a interface interativa e a implementação do algoritmo de Huffman.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Considerações
+Este projeto ilustra de maneira prática como o **Algoritmo de Huffman** é utilizado para compressão de dados. Com uma interface interativa, ele conecta teoria e prática, tornando mais fácil entender o funcionamento do algoritmo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Demonstração em Vídeo
+Para mais detalhes, assista à [demonstração em vídeo do projeto]().
